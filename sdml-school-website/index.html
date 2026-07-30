@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDML Gurukulam Public School</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation Header -->
+  <header class="navbar-header">
+    <div class="nav-container">
+      
+      <!-- 3 Lines Button on Left -->
+      <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()" type="button" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- School Name & Address in Center -->
+      <div class="school-title">
+        <h1>SDML GURUKULAM PUBLIC SCHOOL</h1>
+        <p class="school-address">Gondaura, Baraut, Handia, Prayagraj, Uttar Pradesh 221502, India</p>
+      </div>
+
+      <!-- School Logo on Right -->
+      <div class="header-logo">
+        <img src="images/logo.png" alt="SDML Gurukulam Logo">
+      </div>
+
+    </div>
+
+    <!-- Dropdown Menu -->
+    <nav class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+        <li><a href="#facilities" onclick="toggleMenu()">Facilities</a></li>
+        <li><a href="#director" onclick="toggleMenu()">Director's Message</a></li>
+        <li><a href="#enquiry" onclick="toggleMenu()">Admission Enquiry</a></li>
+        <li><a href="#location" onclick="toggleMenu()">Location</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 2. Hero Section with Background Image -->
+  <section class="hero-section" id="home">
+    <div class="overlay"></div> 
+    <div class="container">
+      <span class="admissions-tag">ADMISSIONS OPEN 2026-27</span>
+      <h1>Nursery to Class V</h1>
+      <p>उज्ज्वल भविष्य की ओर पहला कदम</p>
+      <div class="button-group">
+        <a href="#enquiry" class="apply-btn">Apply Now</a>
+        <div class="call-btn">
+          <span>Call:</span> 
+          <a href="tel:9451021220">9451021220</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. About Us Section -->
+  <section class="about-section" id="about">
+    <div class="about-container">
+      <h2>About SDML Gurukulam</h2>
+      <p>
+        SDML Gurukulam Public School provides quality education from Nursery to Class V. We focus on modern teaching methodologies blended with traditional values to foster complete physical, mental, and ethical development of students.
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. Key Features Section -->
+  <section class="features-section" id="features">
+    <h2 class="section-title">Why Choose Us?</h2>
+    <p class="section-subtitle" style="text-align: center; color: #555; max-width: 700px; margin: -10px auto 30px auto; font-size: 1rem; line-height: 1.6;">
+    Empowering students with academic excellence, moral values, and modern facilities to build a bright and successful future.
+    </p>
+    <div class="features-grid">
+      <div class="feature-card smart-card">
+        <h3>Smart Classes</h3>
+        <p>Interactive digital learning tools for better understanding and retention.</p>
+      </div>
+      <div class="feature-card faculty-box">
+        <h3>Experienced Faculty</h3>
+        <p>Dedicated and caring teachers focused on personalized attention.</p>
+      </div>
+      <!-- सही पाथ और स्टाइल के साथ Safe Campus कार्ड -->
+      <div class="feature-card" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/safty.png'); background-size: cover; background-position: center; min-height: 250px; border-radius: 12px; display: flex; flex-direction: column; justify-content: flex-end; padding: 20px;">
+        <h3 style="color: #ffc107;">Safe Campus</h3>
+        <p style="color: #f8f9fa; margin: 0;">CCTV monitored campus ensuring full safety and security of students.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Facilities Section -->
+  <section class="facilities-section" id="facilities">
+    <h2 class="section-title">Our Facilities</h2>
+    <p class="section-subtitle" style="text-align: center; color: #555; max-width: 700px; margin: -10px auto 30px auto; font-size: 1rem; line-height: 1.6;">
+    Providing a safe, modern, and engaging environment with state-of-the-art infrastructure to support overall student development.
+    </p>
+    <div class="facilities-grid">
+      <div class="facility-box lab-box">
+        <h4>Computer Lab</h4>
+        <p>Modern computer lab with high-speed internet and updated software.</p>
+      </div>
+      <div class="facility-box transport-box">
+        <h4>Transport Facility</h4>
+        <p>Safe van/bus conveyance with experienced drivers for nearby areas.</p>
+      </div>
+      <div class="facility-box sports-box">
+    <h4 style="color: #ffc107; margin-bottom: 5px;">Play & Sports Area</h4>
+    <p style="color: #f8f9fa; margin: 0;">Dedicated play space for sports, games, and physical fitness.</p>
+</div>
+      <div class="facility-box cultural-box">
+        <h4>Cultural Activities</h4>
+        <p>Regular events, competitions, and celebration...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Director's Message Section -->
+  <section class="director-section" id="director">
+    <div class="director-container">
+      <div class="director-image-box">
+        <img src="images/director.jpg" alt="Director Sir" class="director-img">
+      </div>
+      <div class="director-text">
+        <h2>Director's Message</h2>
+        <h3>Welcoming You to SDML Gurukulam</h3>
+        <p>
+          "Education is not just about academic learning; it is about building character, confidence, and values. At SDML Gurukulam Public School, our aim is to provide a nurturing environment where every child discovers their potential and steps forward toward a bright future."
+        </p>
+        <div class="director-signature">
+          <h4>Govind Kumar Maurya</h4>
+          <span>Director, SDML Gurukulam Public School</span>
+          <div style="margin-top: 8px;">
+    <a href="https://www.facebook.com/govindkumar.maurya.520" target="_blank" style="color: #1877f2; text-decoration: none; font-weight: bold;">
+        <i class="fab fa-facebook"></i> DirectorSir
+    </a>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Quick Enquiry / Admission Form -->
+  <section class="enquiry-section" id="enquiry">
+    <h2>Admission Enquiry</h2>
+    <p>Fill in the details below and our team will get in touch with you shortly.</p>
+    <form action="https://api.web3forms.com/submit" method="POST" class="enquiry-form">
+        <input type="hidden" name="access_key" value="d5de48f5-9c7a-4918-8468-04ee416ce332">
+      <input type="text" name="name" placeholder="Parent's Name" required>
+      <input type="tel" name="phone" placeholder="Mobile Number" required>
+      <select name="class" required>
+        <option value="" disabled selected>Select Class for Admission</option>
+        <option value="nursery">Nursery</option>
+        <option value="lkg">LKG</option>
+        <option value="ukg">UKG</option>
+        <option value="class1">Class 1</option>
+        <option value="class2">Class 2</option>
+        <option value="class3">Class 3</option>
+        <option value="class4">Class 4</option>
+        <option value="class5">Class 5</option>
+      </select>
+      <button type="submit" class="submit-btn">Submit Enquiry</button>
+    </form>
+  </section>
+
+  <!-- School Photo Gallery Slider Section -->
+  <section class="gallery-section">
+    <h2 class="gallery-title">School Gallery</h2>
+    <div class="slider-container">
+        <div class="slider-track">
+            <div class="slide"><img src="images/sports.jpg" alt="Playground"></div>
+            <div class="slide"><img src="images/cultural.jpg" alt="Cultural Events"></div>
+            <div class="slide"><img src="images/school.jpg" alt="School Campus"></div>
+            <div class="slide"><img src="images/computer.jpg" alt="Computer Lab"></div>
+            <div class="slide"><img src="images/class.jpg" alt="Classroom"></div>
+            <div class="slide"><img src="images/sports.jpg" alt="Playground"></div>
+            <div class="slide"><img src="images/cultural.jpg" alt="Cultural Events"></div>
+            <div class="slide"><img src="images/school.jpg" alt="School Campus"></div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section class="location-section" id="location">
+    <h2>Our Location</h2>
+    <p>Visit us at SDML Gurukulam Public School or click the button below for directions.</p>
+    
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.148560195537!2d82.2699!3d25.3998!2m3!1f0!2f0!3f0!3m2!1i1024!2i780!4f13.1!3m3!1m2!1s0x398f7863b5df8237%3A0x5605b24c5ebf41d7!2sSDML%20Gurukulam%20Public%20School!5e0!3m2!1sen!2sin!4v1700000000000" 
+        width="100%" 
+        height="350" 
+        style="border:0; border-radius: 10px;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <div class="map-btn-wrapper">
+      <a href="https://maps.app.goo.gl/MRpwtieZsFixGfw19" target="_blank" class="map-link-btn">
+        <i class="fa-solid fa-map-location-dot"></i> Open in Google Maps
+      </a>
+    </div>
+  </section>
+
+  <!-- Final Clean Footer Section -->
+  <footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-col footer-about">
+            <div class="footer-logo-box">
+                <img src="images/logo.png" style="width: 50px !important; height: 50px !important; object-fit: contain !important; vertical-align: middle !important; margin-right: 10px !important;">
+                <h3 class="footer-school-name">SDML Gurukulam Public School</h3>
+            </div>
+            <p class="footer-desc">Providing quality education, moral values, and overall development for a bright future.</p>
+        </div>
+
+        <div class="footer-col footer-contact">
+            <h4>Contact Us</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Location: Gondaura, Baraut, Handia, Prayagraj, UP 221502 India</p>
+            <p><i class="fas fa-envelope"></i> Email: sdmlgurukulam@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i> Helpline: +91 9451021220</p>
+            <p><i class="fab fa-instagram" style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i> Instagram: <a href="https://instagram.com/sdmlgurukulam" target="_blank" style="color: inherit; text-decoration: none;">sdmlgurukulam</a></p>
+            <p><i class="fab fa-youtube" style="color: #ff0000;"></i> YouTube: <a href="https://youtube.com/@SDMLGURUKULAMGovindMaurya" target="_blank" style="color: inherit; text-decoration: none;">@SDMLGURUKULAMGovindMaurya</a></p>
+            <p><i class="fab fa-facebook" style="color: #1877f2;"></i> Facebook: <a href="https://www.facebook.com/profile.php?id=100064026702225" target="_blank" style="color: inherit; text-decoration: none;">Sdml gurukulam public school</a></p>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 SDML Gurukulam Public School. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Icon -->
+  <a href="https://wa.me/919451021220?text=Hello%2C%20I%20want%20to%20know%20more%20about%20admissions." 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     title="Chat with us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="whatsapp-icon">
+      <path fill="#ffffff" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3 18.6-68.1-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18.1-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18.1-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+    </svg>
+  </a>
+
+  <!-- Toggle Menu Script -->
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("navMenu");
+      menu.classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>
